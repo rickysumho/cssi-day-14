@@ -19,5 +19,5 @@ funAnimals.push({
 })
 
 for (let animal of funAnimals) {
-    console.log(`${animal.name} the ${animal.type} is fun.  Why, you ask? Your reason? ${animal.why}`)
+    console.log(`${animal.name} the ${animal.type} is fun.  Why, you ask? ${animal.why}`)
 }
