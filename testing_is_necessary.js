@@ -15,9 +15,9 @@ funAnimals.push({
 funAnimals.push({
     name: "Peter",
     type: "Tortoise",
-    reason: "back yard grass eater"
+    why: "back yard grass eater"
 })
 
 for (let animal of funAnimals) {
-    console.log(`${animal.name} the ${animal.type} is fun.  Why, you ask? Your reason? ${animal.why}`)
+    console.log(`${animal.name} the ${animal.type} is fun.  Why, you ask? ${animal.why}`)
 }
